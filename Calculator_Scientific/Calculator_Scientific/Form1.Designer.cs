@@ -87,7 +87,7 @@
             this.button_dot.Name = "button_dot";
             this.button_dot.Size = new System.Drawing.Size(68, 37);
             this.button_dot.TabIndex = 3;
-            this.button_dot.Text = ".";
+            this.button_dot.Text = ",";
             this.button_dot.UseVisualStyleBackColor = false;
             this.button_dot.Click += new System.EventHandler(this.Number_Clicked);
             // 
@@ -360,7 +360,7 @@
             this.buttonPower.Name = "buttonPower";
             this.buttonPower.Size = new System.Drawing.Size(68, 37);
             this.buttonPower.TabIndex = 28;
-            this.buttonPower.Text = "pow";
+            this.buttonPower.Text = "^";
             this.buttonPower.UseVisualStyleBackColor = false;
             this.buttonPower.Click += new System.EventHandler(this.ButtonPower_Click);
             // 
@@ -375,6 +375,7 @@
             this.button27.TabIndex = 29;
             this.button27.Text = "mod";
             this.button27.UseVisualStyleBackColor = false;
+            this.button27.Click += new System.EventHandler(this.Operator_Clicked);
             // 
             // Form1
             // 
@@ -382,6 +383,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(404, 313);
+            this.Controls.Add(this.button_plus);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.buttonPower);
             this.Controls.Add(this.buttonSqrt);
@@ -393,7 +395,6 @@
             this.Controls.Add(this.button_divisor);
             this.Controls.Add(this.button_multiplication);
             this.Controls.Add(this.button_substract);
-            this.Controls.Add(this.button_plus);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.buttonAns);
             this.Controls.Add(this.button9);

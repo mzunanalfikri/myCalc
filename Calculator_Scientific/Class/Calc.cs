@@ -36,7 +36,6 @@ namespace Calculator
             isOperation = false;
 
             memory.Clear();
-            numbers.Clear();
         }
 
         // GETTER & SETTER
@@ -94,6 +93,10 @@ namespace Calculator
             memory.Enqueue(double.Parse(nums));
         }
 
+        public bool IsMemEmpty()
+        {
+            return memory.Count == 0;
+        }
         // Mengeluarkan angka dari memory
         public double GetMemory()
         {
@@ -125,7 +128,10 @@ namespace Calculator
                     temp = Math.Pow(operand1, operand2);
                     break;
                 case "sqrt":
-                    temp = Math.Pow(operand1, 1.0 / operand2);
+                    temp = Math.Pow(operand1, 1.0 / 2.0);
+                    break;
+                case "mod":
+                    temp = operand1 % operand2;
                     break;
             }
             return temp;

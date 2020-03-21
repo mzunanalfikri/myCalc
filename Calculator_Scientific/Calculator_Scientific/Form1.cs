@@ -58,15 +58,15 @@ namespace Calculator_Scientific
         {
             Button clicked = (Button)sender;
             if (!calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
-                //percabangan saat awal diinput negatif
+            //percabangan saat awal diinput negatif
             {
                 textBox_Result.Clear();
                 AssignClicked = false;
                 textBox_Result.Text = textBox_Result.Text + clicked.Text;
                 current_number = current_number + clicked.Text;
-            } 
+            }
             else if (calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
-                //percaabangan setelah tanda operasi lalu ada simbol negatif
+            //percaabangan setelah tanda operasi lalu ada simbol negatif
             {
                 textBox_Result.Text = textBox_Result.Text + clicked.Text;
                 current_number = current_number + clicked.Text;
@@ -84,7 +84,14 @@ namespace Calculator_Scientific
                 current_number = "";
 
                 // Menampilkan operator ke layar
-                textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                if (clicked.Text.Equals("mod"))
+                {
+                    textBox_Result.Text = textBox_Result.Text + "%";
+                }
+                else
+                {
+                    textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                }
             }
         }
 
@@ -117,14 +124,31 @@ namespace Calculator_Scientific
         }
 
         private void MC_Button(object sender, EventArgs e)
+            //button mc untuk save ke queue
         {
-            calc.SetMemory(textBox_Result.Text);
-            textBox_Result.Text = "0";
+            if (current_number.Equals(""))
+            {
+                MessageBox.Show("tidak ada yang di simpan");
+            } else
+            {
+                calc.SetMemory(current_number);
+                MessageBox.Show(current_number + " berhasil dimasukkan ke queue");
+            }
         }
 
         private void MR_Button(object sender, EventArgs e)
         {
-            calc.GetMemory();
+            if (calc.IsMemEmpty())
+            {
+                MessageBox.Show("Queue kosong");
+            }
+            else
+            {
+                string temp = calc.GetMemory().ToString();
+                textBox_Result.Text = textBox_Result.Text + temp;
+                current_number = temp;
+            }
+            
         }
 
         
@@ -149,24 +173,41 @@ namespace Calculator_Scientific
         private void ButtonSqrt_Click(object sender, EventArgs e)
         {
             Button clicked = (Button)sender;
-            // mengubah isOperation menjadi true karena tombol operator diklik
-            calc.SetStateOperation(true);
+            if (calc.GetStateOperation() || current_number.Equals(""))
+            {
+                MessageBox.Show("Masukkan bilangan yang valid");
+            }
+            else
+            {
+                AssignClicked = true;
 
-            // Menyimpan operator yang diklik ke operatorSign
-            calc.SignOperator(clicked.Text);
+                // mengubah isOperation menjadi true karena tombol operator diklik
+                calc.SetStateOperation(true);
 
-            // Menyimpan angka ke operand1
-            calc.SetOperand1(current_number);
-            current_number = "";
+                // Menyimpan operator yang diklik ke operatorSign
+                calc.SignOperator(clicked.Text);
 
-            // Menampilkan operator ke layar
-            textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                //set operand 1
+                calc.SetOperand1(current_number);
+                current_number = "";
+
+                // Menghitung operasi
+                double temp = calc.calculate();
+
+                // Menampilkan hasil operasi
+                textBox_Result.Clear();
+                textBox_Result.Text = temp.ToString();
+
+                //set state operation false
+                calc.SetStateOperation(false);
+                //set ans
+                calc.SetAns(temp.ToString());
+            }
         }
 
         private void ButtonAns_Click(object sender, EventArgs e)
         {
             string temp = calc.GetAns().ToString();
-            temp = "99";
             textBox_Result.Text = textBox_Result.Text + temp;
             current_number = temp;
         }
