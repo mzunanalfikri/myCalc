@@ -1,0 +1,26 @@
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe.config
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.pdb
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.dll
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.pdb
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csprojAssemblyReference.cache
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Form1.resources
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Properties.Resources.resources
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.GenerateResource.cache
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CopyComplete
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb
+D:\01 INDY\#college\# 4 IF\Stima\Tubes3StrAlgo\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe.config
+D:\01 INDY\#college\# 4 IF\Stima\Tubes3StrAlgo\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
+D:\01 INDY\#college\# 4 IF\Stima\Tubes3StrAlgo\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe.config
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csprojResolveAssemblyReference.cache
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Form1.resources
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Properties.Resources.resources
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.GenerateResource.Cache
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.pdb

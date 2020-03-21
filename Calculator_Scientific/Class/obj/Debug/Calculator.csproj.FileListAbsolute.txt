@@ -1,0 +1,10 @@
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\obj\Debug\Calculator.csprojAssemblyReference.cache
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\obj\Debug\Class.dll
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\obj\Debug\Class.pdb
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\bin\Debug\Class.dll
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\bin\Debug\Class.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Class.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Class.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Class.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Class.pdb
