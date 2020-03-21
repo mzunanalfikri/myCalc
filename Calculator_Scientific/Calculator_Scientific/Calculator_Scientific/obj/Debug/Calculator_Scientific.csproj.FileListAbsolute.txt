@@ -1,0 +1,25 @@
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe.config
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.pdb
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.dll
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.pdb
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csprojAssemblyReference.cache
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Form1.resources
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Properties.Resources.resources
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.GenerateResource.cache
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CopyComplete
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
+D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe.config
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.pdb
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.dll
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.pdb
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csprojAssemblyReference.cache
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Form1.resources
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Properties.Resources.resources
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.GenerateResource.cache
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CoreCompileInputs.cache
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CopyComplete
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb
