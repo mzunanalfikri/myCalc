@@ -15,7 +15,7 @@ namespace Calculator_Scientific
     {
 
         Calc calc = new Calc();
-        string current_number; // menyimpan angka dari input pengguna
+        string current_number = ""; // menyimpan angka dari input pengguna
         bool AssignClicked = false; // menandai apakah tombol = sudah ditekan atau belum
 
         public Form1()
@@ -57,18 +57,35 @@ namespace Calculator_Scientific
         private void Operator_Clicked(object sender, EventArgs e)
         {
             Button clicked = (Button)sender;
-            // mengubah isOperation menjadi true karena tombol operator diklik
-            calc.SetStateOperation(true);
-            
-            // Menyimpan operator yang diklik ke operatorSign
-            calc.SignOperator(clicked.Text);
+            if (!calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
+                //percabangan saat awal diinput negatif
+            {
+                textBox_Result.Clear();
+                AssignClicked = false;
+                textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                current_number = current_number + clicked.Text;
+            } 
+            else if (calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
+                //percaabangan setelah tanda operasi lalu ada simbol negatif
+            {
+                textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                current_number = current_number + clicked.Text;
+            }
+            else
+            {
+                // mengubah isOperation menjadi true karena tombol operator diklik
+                calc.SetStateOperation(true);
 
-            // Menyimpan angka ke operand1
-            calc.SetOperand1(current_number);
-            current_number = "";
+                // Menyimpan operator yang diklik ke operatorSign
+                calc.SignOperator(clicked.Text);
 
-            // Menampilkan operator ke layar
-            textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                // Menyimpan angka ke operand1
+                calc.SetOperand1(current_number);
+                current_number = "";
+
+                // Menampilkan operator ke layar
+                textBox_Result.Text = textBox_Result.Text + clicked.Text;
+            }
         }
 
         private void asignButton(object sender, EventArgs e)
@@ -85,11 +102,17 @@ namespace Calculator_Scientific
             // Menampilkan hasil operasi
             textBox_Result.Clear();
             textBox_Result.Text = temp.ToString();
+
+            //set state operation false
+            calc.SetStateOperation(false);
+            //set ans
+            calc.SetAns(temp.ToString());
         }
 
         private void AC_button(object sender, EventArgs e)
         {
             calc.Reset();
+            current_number = "";
             textBox_Result.Text = "0";
         }
 
@@ -102,6 +125,50 @@ namespace Calculator_Scientific
         private void MR_Button(object sender, EventArgs e)
         {
             calc.GetMemory();
+        }
+
+        
+
+        private void ButtonPower_Click(object sender, EventArgs e)
+        {
+            Button clicked = (Button)sender;
+            // mengubah isOperation menjadi true karena tombol operator diklik
+            calc.SetStateOperation(true);
+
+            // Menyimpan operator yang diklik ke operatorSign
+            calc.SignOperator(clicked.Text);
+
+            // Menyimpan angka ke operand1
+            calc.SetOperand1(current_number);
+            current_number = "";
+
+            // Menampilkan operator ke layar
+            textBox_Result.Text = textBox_Result.Text + clicked.Text;
+        }
+
+        private void ButtonSqrt_Click(object sender, EventArgs e)
+        {
+            Button clicked = (Button)sender;
+            // mengubah isOperation menjadi true karena tombol operator diklik
+            calc.SetStateOperation(true);
+
+            // Menyimpan operator yang diklik ke operatorSign
+            calc.SignOperator(clicked.Text);
+
+            // Menyimpan angka ke operand1
+            calc.SetOperand1(current_number);
+            current_number = "";
+
+            // Menampilkan operator ke layar
+            textBox_Result.Text = textBox_Result.Text + clicked.Text;
+        }
+
+        private void ButtonAns_Click(object sender, EventArgs e)
+        {
+            string temp = calc.GetAns().ToString();
+            temp = "99";
+            textBox_Result.Text = textBox_Result.Text + temp;
+            current_number = temp;
         }
     }
 }

@@ -8,3 +8,9 @@ D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\bin\De
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Class.dll
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Class.pdb
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Class.dll
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Class.pdb
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Calculator.csprojAssemblyReference.cache
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Class.dll
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Class.pdb

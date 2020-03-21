@@ -12,19 +12,19 @@ namespace Calculator
         protected double operand2;
         protected string operatorSign;
         protected bool isOperation;
+        protected double ans;
 
         protected Queue<double> memory;
-        protected List<double> numbers;
 
         // default constructor
         public Calc()
         {
             operand1 = 0.0;
             operand2 = 0.0;
+            ans = 0.0;
             isOperation = false;
 
             memory = new Queue<double>();
-            numbers = new List<double>();
         }
 
         // Menghapus semua yang ada di layar dan di memory kalkulator
@@ -53,10 +53,19 @@ namespace Calculator
             operand2 = double.Parse(number);
         }
 
+        public void SetAns(string number)
+        {
+            ans = double.Parse(number);
+        }
         // Menyimpan operator dari input ke dalam operatorSign
         public void SignOperator(string sign)
         {
             operatorSign = sign;
+        }
+
+        public double GetAns()
+        {
+            return ans;
         }
 
         // Mengembalikan operator dari operatorSign
@@ -111,6 +120,12 @@ namespace Calculator
 
                 case "/":
                     temp = operand1 / operand2;
+                    break;
+                case "^":
+                    temp = Math.Pow(operand1, operand2);
+                    break;
+                case "sqrt":
+                    temp = Math.Pow(operand1, 1.0 / operand2);
                     break;
             }
             return temp;
