@@ -24,3 +24,16 @@ D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_S
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.GenerateResource.Cache
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.pdb
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe.config
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.pdb
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.dll
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.pdb
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csprojAssemblyReference.cache
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Form1.resources
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Properties.Resources.resources
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.GenerateResource.cache
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CoreCompileInputs.cache
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CopyComplete
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
+C:\Users\marho\OneDrive\Desktop\Tubes\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb

@@ -62,10 +62,11 @@
             // textBox_Result
             // 
             this.textBox_Result.Font = new System.Drawing.Font("OCR A Extended", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Result.Location = new System.Drawing.Point(21, 36);
+            this.textBox_Result.Location = new System.Drawing.Point(28, 44);
+            this.textBox_Result.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Result.Name = "textBox_Result";
             this.textBox_Result.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox_Result.Size = new System.Drawing.Size(364, 38);
+            this.textBox_Result.Size = new System.Drawing.Size(484, 45);
             this.textBox_Result.TabIndex = 0;
             this.textBox_Result.Text = "0";
             // 
@@ -74,9 +75,10 @@
             this.button0.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button0.BackColor = System.Drawing.Color.DarkGray;
             this.button0.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button0.Location = new System.Drawing.Point(22, 273);
+            this.button0.Location = new System.Drawing.Point(29, 336);
+            this.button0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button0.Name = "button0";
-            this.button0.Size = new System.Drawing.Size(68, 29);
+            this.button0.Size = new System.Drawing.Size(91, 36);
             this.button0.TabIndex = 1;
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
@@ -87,9 +89,10 @@
             this.button_dot.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_dot.BackColor = System.Drawing.Color.DarkGray;
             this.button_dot.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_dot.Location = new System.Drawing.Point(170, 273);
+            this.button_dot.Location = new System.Drawing.Point(227, 336);
+            this.button_dot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_dot.Name = "button_dot";
-            this.button_dot.Size = new System.Drawing.Size(68, 29);
+            this.button_dot.Size = new System.Drawing.Size(91, 36);
             this.button_dot.TabIndex = 3;
             this.button_dot.Text = ".";
             this.button_dot.UseVisualStyleBackColor = false;
@@ -100,9 +103,10 @@
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button1.BackColor = System.Drawing.Color.DarkGray;
             this.button1.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(22, 238);
+            this.button1.Location = new System.Drawing.Point(29, 293);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(68, 29);
+            this.button1.Size = new System.Drawing.Size(91, 36);
             this.button1.TabIndex = 4;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
@@ -113,9 +117,10 @@
             this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button2.BackColor = System.Drawing.Color.DarkGray;
             this.button2.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(96, 238);
+            this.button2.Location = new System.Drawing.Point(128, 293);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(68, 29);
+            this.button2.Size = new System.Drawing.Size(91, 36);
             this.button2.TabIndex = 5;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
@@ -126,9 +131,10 @@
             this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button3.BackColor = System.Drawing.Color.DarkGray;
             this.button3.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(170, 238);
+            this.button3.Location = new System.Drawing.Point(227, 293);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(68, 29);
+            this.button3.Size = new System.Drawing.Size(91, 36);
             this.button3.TabIndex = 6;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
@@ -139,9 +145,10 @@
             this.button4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button4.BackColor = System.Drawing.Color.DarkGray;
             this.button4.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(22, 203);
+            this.button4.Location = new System.Drawing.Point(29, 250);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(68, 29);
+            this.button4.Size = new System.Drawing.Size(91, 36);
             this.button4.TabIndex = 7;
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
@@ -152,9 +159,10 @@
             this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button6.BackColor = System.Drawing.Color.DarkGray;
             this.button6.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(170, 203);
+            this.button6.Location = new System.Drawing.Point(227, 250);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(68, 29);
+            this.button6.Size = new System.Drawing.Size(91, 36);
             this.button6.TabIndex = 9;
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
@@ -165,9 +173,10 @@
             this.button7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button7.BackColor = System.Drawing.Color.DarkGray;
             this.button7.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(22, 168);
+            this.button7.Location = new System.Drawing.Point(29, 207);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(68, 29);
+            this.button7.Size = new System.Drawing.Size(91, 36);
             this.button7.TabIndex = 10;
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = false;
@@ -178,9 +187,10 @@
             this.button9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button9.BackColor = System.Drawing.Color.DarkGray;
             this.button9.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(170, 168);
+            this.button9.Location = new System.Drawing.Point(227, 207);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(68, 29);
+            this.button9.Size = new System.Drawing.Size(91, 36);
             this.button9.TabIndex = 12;
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = false;
@@ -191,9 +201,10 @@
             this.buttonAns.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonAns.BackColor = System.Drawing.Color.DarkGray;
             this.buttonAns.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAns.Location = new System.Drawing.Point(244, 273);
+            this.buttonAns.Location = new System.Drawing.Point(325, 336);
+            this.buttonAns.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAns.Name = "buttonAns";
-            this.buttonAns.Size = new System.Drawing.Size(68, 29);
+            this.buttonAns.Size = new System.Drawing.Size(91, 36);
             this.buttonAns.TabIndex = 13;
             this.buttonAns.Text = "Ans";
             this.buttonAns.UseVisualStyleBackColor = false;
@@ -203,9 +214,10 @@
             this.button14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button14.BackColor = System.Drawing.Color.DarkGray;
             this.button14.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(318, 273);
+            this.button14.Location = new System.Drawing.Point(424, 336);
+            this.button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(68, 29);
+            this.button14.Size = new System.Drawing.Size(91, 36);
             this.button14.TabIndex = 14;
             this.button14.Text = "=";
             this.button14.UseVisualStyleBackColor = false;
@@ -216,9 +228,10 @@
             this.button_plus.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_plus.BackColor = System.Drawing.Color.DarkGray;
             this.button_plus.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_plus.Location = new System.Drawing.Point(244, 238);
+            this.button_plus.Location = new System.Drawing.Point(325, 293);
+            this.button_plus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_plus.Name = "button_plus";
-            this.button_plus.Size = new System.Drawing.Size(68, 29);
+            this.button_plus.Size = new System.Drawing.Size(91, 36);
             this.button_plus.TabIndex = 15;
             this.button_plus.Text = "+";
             this.button_plus.UseVisualStyleBackColor = false;
@@ -229,9 +242,10 @@
             this.button_substract.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_substract.BackColor = System.Drawing.Color.DarkGray;
             this.button_substract.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_substract.Location = new System.Drawing.Point(318, 238);
+            this.button_substract.Location = new System.Drawing.Point(424, 293);
+            this.button_substract.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_substract.Name = "button_substract";
-            this.button_substract.Size = new System.Drawing.Size(68, 29);
+            this.button_substract.Size = new System.Drawing.Size(91, 36);
             this.button_substract.TabIndex = 16;
             this.button_substract.Text = "-";
             this.button_substract.UseVisualStyleBackColor = false;
@@ -242,9 +256,10 @@
             this.button_multiplication.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_multiplication.BackColor = System.Drawing.Color.DarkGray;
             this.button_multiplication.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_multiplication.Location = new System.Drawing.Point(244, 203);
+            this.button_multiplication.Location = new System.Drawing.Point(325, 250);
+            this.button_multiplication.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_multiplication.Name = "button_multiplication";
-            this.button_multiplication.Size = new System.Drawing.Size(68, 29);
+            this.button_multiplication.Size = new System.Drawing.Size(91, 36);
             this.button_multiplication.TabIndex = 17;
             this.button_multiplication.Text = "*";
             this.button_multiplication.UseVisualStyleBackColor = false;
@@ -255,9 +270,10 @@
             this.button_divisor.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_divisor.BackColor = System.Drawing.Color.DarkGray;
             this.button_divisor.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_divisor.Location = new System.Drawing.Point(318, 203);
+            this.button_divisor.Location = new System.Drawing.Point(424, 250);
+            this.button_divisor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_divisor.Name = "button_divisor";
-            this.button_divisor.Size = new System.Drawing.Size(68, 29);
+            this.button_divisor.Size = new System.Drawing.Size(91, 36);
             this.button_divisor.TabIndex = 18;
             this.button_divisor.Text = "/";
             this.button_divisor.UseVisualStyleBackColor = false;
@@ -268,9 +284,10 @@
             this.buttonDel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonDel.BackColor = System.Drawing.Color.DarkGray;
             this.buttonDel.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDel.Location = new System.Drawing.Point(244, 168);
+            this.buttonDel.Location = new System.Drawing.Point(325, 207);
+            this.buttonDel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(68, 29);
+            this.buttonDel.Size = new System.Drawing.Size(91, 36);
             this.buttonDel.TabIndex = 19;
             this.buttonDel.Text = "DEL";
             this.buttonDel.UseVisualStyleBackColor = false;
@@ -280,9 +297,10 @@
             this.buttonAC.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonAC.BackColor = System.Drawing.Color.DarkGray;
             this.buttonAC.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAC.Location = new System.Drawing.Point(318, 168);
+            this.buttonAC.Location = new System.Drawing.Point(424, 207);
+            this.buttonAC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonAC.Name = "buttonAC";
-            this.buttonAC.Size = new System.Drawing.Size(68, 29);
+            this.buttonAC.Size = new System.Drawing.Size(91, 36);
             this.buttonAC.TabIndex = 20;
             this.buttonAC.Text = "AC";
             this.buttonAC.UseVisualStyleBackColor = false;
@@ -293,9 +311,10 @@
             this.buttonMR.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonMR.BackColor = System.Drawing.Color.DarkGray;
             this.buttonMR.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMR.Location = new System.Drawing.Point(317, 89);
+            this.buttonMR.Location = new System.Drawing.Point(423, 110);
+            this.buttonMR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonMR.Name = "buttonMR";
-            this.buttonMR.Size = new System.Drawing.Size(68, 29);
+            this.buttonMR.Size = new System.Drawing.Size(91, 36);
             this.buttonMR.TabIndex = 21;
             this.buttonMR.Text = "MR";
             this.buttonMR.UseVisualStyleBackColor = false;
@@ -306,9 +325,10 @@
             this.buttonMC.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonMC.BackColor = System.Drawing.Color.DarkGray;
             this.buttonMC.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMC.Location = new System.Drawing.Point(243, 89);
+            this.buttonMC.Location = new System.Drawing.Point(324, 110);
+            this.buttonMC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonMC.Name = "buttonMC";
-            this.buttonMC.Size = new System.Drawing.Size(68, 29);
+            this.buttonMC.Size = new System.Drawing.Size(91, 36);
             this.buttonMC.TabIndex = 22;
             this.buttonMC.Text = "MC";
             this.buttonMC.UseVisualStyleBackColor = false;
@@ -319,9 +339,10 @@
             this.button8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button8.BackColor = System.Drawing.Color.DarkGray;
             this.button8.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(96, 168);
+            this.button8.Location = new System.Drawing.Point(128, 207);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(68, 29);
+            this.button8.Size = new System.Drawing.Size(91, 36);
             this.button8.TabIndex = 11;
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = false;
@@ -332,9 +353,10 @@
             this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button5.BackColor = System.Drawing.Color.DarkGray;
             this.button5.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(96, 203);
+            this.button5.Location = new System.Drawing.Point(128, 250);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(68, 29);
+            this.button5.Size = new System.Drawing.Size(91, 36);
             this.button5.TabIndex = 23;
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = false;
@@ -345,9 +367,10 @@
             this.button00.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button00.BackColor = System.Drawing.Color.DarkGray;
             this.button00.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button00.Location = new System.Drawing.Point(96, 273);
+            this.button00.Location = new System.Drawing.Point(128, 336);
+            this.button00.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button00.Name = "button00";
-            this.button00.Size = new System.Drawing.Size(68, 29);
+            this.button00.Size = new System.Drawing.Size(91, 36);
             this.button00.TabIndex = 24;
             this.button00.Text = "00";
             this.button00.UseVisualStyleBackColor = false;
@@ -358,9 +381,10 @@
             this.button23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button23.BackColor = System.Drawing.Color.DarkGray;
             this.button23.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(22, 133);
+            this.button23.Location = new System.Drawing.Point(29, 164);
+            this.button23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(30, 29);
+            this.button23.Size = new System.Drawing.Size(40, 36);
             this.button23.TabIndex = 25;
             this.button23.Text = "(";
             this.button23.UseVisualStyleBackColor = false;
@@ -371,9 +395,10 @@
             this.button24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button24.BackColor = System.Drawing.Color.DarkGray;
             this.button24.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.Location = new System.Drawing.Point(60, 133);
+            this.button24.Location = new System.Drawing.Point(80, 164);
+            this.button24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(30, 29);
+            this.button24.Size = new System.Drawing.Size(40, 36);
             this.button24.TabIndex = 26;
             this.button24.Text = ")";
             this.button24.UseVisualStyleBackColor = false;
@@ -384,33 +409,38 @@
             this.buttonSqrt.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonSqrt.BackColor = System.Drawing.Color.DarkGray;
             this.buttonSqrt.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSqrt.Location = new System.Drawing.Point(244, 133);
+            this.buttonSqrt.Location = new System.Drawing.Point(325, 164);
+            this.buttonSqrt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonSqrt.Name = "buttonSqrt";
-            this.buttonSqrt.Size = new System.Drawing.Size(68, 29);
+            this.buttonSqrt.Size = new System.Drawing.Size(91, 36);
             this.buttonSqrt.TabIndex = 27;
             this.buttonSqrt.Text = "sqrt";
             this.buttonSqrt.UseVisualStyleBackColor = false;
+            this.buttonSqrt.Click += new System.EventHandler(this.buttonSqrt_Click);
             // 
             // buttonPower
             // 
             this.buttonPower.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonPower.BackColor = System.Drawing.Color.DarkGray;
-            this.buttonPower.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonPower.Location = new System.Drawing.Point(318, 133);
+            this.buttonPower.Font = new System.Drawing.Font("NSimSun", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPower.Location = new System.Drawing.Point(424, 164);
+            this.buttonPower.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonPower.Name = "buttonPower";
-            this.buttonPower.Size = new System.Drawing.Size(68, 29);
+            this.buttonPower.Size = new System.Drawing.Size(88, 35);
             this.buttonPower.TabIndex = 28;
-            this.buttonPower.Text = "pow";
+            this.buttonPower.Text = "^";
             this.buttonPower.UseVisualStyleBackColor = false;
+            this.buttonPower.Click += new System.EventHandler(this.buttonPower_Click);
             // 
             // button27
             // 
             this.button27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button27.BackColor = System.Drawing.Color.DarkGray;
             this.button27.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button27.Location = new System.Drawing.Point(96, 133);
+            this.button27.Location = new System.Drawing.Point(128, 164);
+            this.button27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(68, 29);
+            this.button27.Size = new System.Drawing.Size(91, 36);
             this.button27.TabIndex = 29;
             this.button27.Text = "mod";
             this.button27.UseVisualStyleBackColor = false;
@@ -420,19 +450,20 @@
             this.button28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button28.BackColor = System.Drawing.Color.DarkGray;
             this.button28.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.Location = new System.Drawing.Point(170, 133);
+            this.button28.Location = new System.Drawing.Point(227, 164);
+            this.button28.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(68, 29);
+            this.button28.Size = new System.Drawing.Size(91, 36);
             this.button28.TabIndex = 30;
             this.button28.Text = "div";
             this.button28.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(404, 313);
+            this.ClientSize = new System.Drawing.Size(539, 385);
             this.Controls.Add(this.button28);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.buttonPower);
@@ -462,6 +493,7 @@
             this.Controls.Add(this.button_dot);
             this.Controls.Add(this.button0);
             this.Controls.Add(this.textBox_Result);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "myCalc";
             this.ResumeLayout(false);

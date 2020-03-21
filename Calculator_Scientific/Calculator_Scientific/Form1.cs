@@ -103,5 +103,39 @@ namespace Calculator_Scientific
         {
             calc.GetMemory();
         }
+
+        private void buttonPower_Click(object sender, EventArgs e)
+        {
+            Button clicked = (Button)sender;
+            // mengubah isOperation menjadi true karena tombol operator diklik
+            calc.SetStateOperation(true);
+
+            // Menyimpan operator yang diklik ke operatorSign
+            calc.SignOperator(clicked.Text);
+
+            // Menyimpan angka ke operand1
+            calc.SetOperand1(current_number);
+            current_number = "";
+
+            // Menampilkan operator ke layar
+            textBox_Result.Text = textBox_Result.Text + clicked.Text;
+        }
+
+        private void buttonSqrt_Click(object sender, EventArgs e)
+        {
+            Button clicked = (Button)sender;
+            // mengubah isOperation menjadi true karena tombol operator diklik
+            calc.SetStateOperation(true);
+
+            // Menyimpan operator yang diklik ke operatorSign
+            calc.SignOperator(clicked.Text);
+
+            // Menyimpan angka ke operand1
+            calc.SetOperand1(current_number);
+            current_number = "";
+
+            // Menampilkan operator ke layar
+            textBox_Result.Text = textBox_Result.Text + clicked.Text;
+        }
     }
 }

@@ -112,6 +112,12 @@ namespace Calculator
                 case "/":
                     temp = operand1 / operand2;
                     break;
+                case "^":
+                    temp = Math.Pow(operand1, operand2);
+                    break;
+                case "sqrt":
+                    temp = Math.Pow(operand1, 1.0/operand2);
+                    break;
             }
             return temp;
         }
