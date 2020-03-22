@@ -167,7 +167,15 @@ namespace Calculator_Scientific
         {
             if (current_number.Equals(""))
             {
-                MessageBox.Show("tidak ada yang di simpan");
+                if (calc.GetAns() != 0)
+                {
+                    calc.SetMemory(calc.GetAns().ToString());
+                    MessageBox.Show(calc.GetAns().ToString() + " berhasil dimasukkan ke queue");
+                } else
+                {
+                    MessageBox.Show("tidak ada yang di simpan");
+                }
+                
             } else
             {
                 calc.SetMemory(current_number);
