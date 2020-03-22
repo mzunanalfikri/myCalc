@@ -11,6 +11,19 @@ using Calculator;
 
 namespace Calculator_Scientific
 {
+    /*
+    public abstract class Exception
+    {
+        protected string error;
+           
+        public Exception(string m)
+        {
+            error = m;
+        }
+        public abstract void ShowError();
+    }
+    */
+    
     public partial class Form1 : Form
     {
 
@@ -97,23 +110,33 @@ namespace Calculator_Scientific
 
         private void asignButton(object sender, EventArgs e)
         {
-            AssignClicked = true;
+            
+            if (calc.GetSignOperator().Equals("/") && current_number.Equals("0"))
+            {
+                //throw new ZeroException("Pembagian dengan nol");
+                MessageBox.Show("pembagian dengan 0");
+            }
+            else
+            {
+                AssignClicked = true;
 
-            // Menyimpan angka ke operand 2
-            calc.SetOperand2(current_number);
-            current_number = "";
+                // Menyimpan angka ke operand 2
+                calc.SetOperand2(current_number);
+                current_number = "";
 
-            // Menghitung operasi
-            double temp = calc.calculate();
+                // Menghitung operasi
+                double temp = calc.calculate();
 
-            // Menampilkan hasil operasi
-            textBox_Result.Clear();
-            textBox_Result.Text = temp.ToString();
+                // Menampilkan hasil operasi
+                textBox_Result.Clear();
+                textBox_Result.Text = temp.ToString();
 
-            //set state operation false
-            calc.SetStateOperation(false);
-            //set ans
-            calc.SetAns(temp.ToString());
+                //set state operation false
+                calc.SetStateOperation(false);
+                //set ans
+                calc.SetAns(temp.ToString());
+            }
+                
         }
 
         private void AC_button(object sender, EventArgs e)

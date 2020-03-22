@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
+    public class ZeroException : System.Exception
+    {
+        public ZeroException(string m) : base(m)
+        {
+
+        }
+    }
     public class Calc
     {
         protected double operand1;
