@@ -36,13 +36,13 @@ namespace Calculator_Scientific
                     textBox_Result.Clear();
                     AssignClicked = false;
                 }
-                else if (clicked.Text != ".")
+                else if (clicked.Text != ",")
                 {
                     textBox_Result.Clear();
                 }
             }
 
-            if (textBox_Result.Text.Contains(".") && clicked.Text.Equals("."))
+            if (textBox_Result.Text.Contains(",") && clicked.Text.Equals(","))
             {
                 MessageBox.Show("Operasi tidak valid.");
             }
