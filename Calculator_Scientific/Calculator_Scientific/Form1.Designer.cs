@@ -57,11 +57,12 @@
             // 
             // textBox_Result
             // 
-            this.textBox_Result.Font = new System.Drawing.Font("OCR A Extended", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Result.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Result.Location = new System.Drawing.Point(21, 36);
             this.textBox_Result.Name = "textBox_Result";
+            this.textBox_Result.ReadOnly = true;
             this.textBox_Result.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.textBox_Result.Size = new System.Drawing.Size(364, 38);
+            this.textBox_Result.Size = new System.Drawing.Size(364, 40);
             this.textBox_Result.TabIndex = 0;
             this.textBox_Result.Text = "0";
             // 
@@ -69,7 +70,7 @@
             // 
             this.button0.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button0.BackColor = System.Drawing.Color.DarkGray;
-            this.button0.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button0.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button0.Location = new System.Drawing.Point(19, 246);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(68, 37);
@@ -82,12 +83,12 @@
             // 
             this.button_dot.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_dot.BackColor = System.Drawing.Color.DarkGray;
-            this.button_dot.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_dot.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_dot.Location = new System.Drawing.Point(167, 246);
             this.button_dot.Name = "button_dot";
             this.button_dot.Size = new System.Drawing.Size(68, 37);
             this.button_dot.TabIndex = 3;
-            this.button_dot.Text = ",";
+            this.button_dot.Text = ".";
             this.button_dot.UseVisualStyleBackColor = false;
             this.button_dot.Click += new System.EventHandler(this.Number_Clicked);
             // 
@@ -95,7 +96,7 @@
             // 
             this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button1.BackColor = System.Drawing.Color.DarkGray;
-            this.button1.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(19, 211);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(68, 37);
@@ -108,7 +109,7 @@
             // 
             this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button2.BackColor = System.Drawing.Color.DarkGray;
-            this.button2.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(93, 211);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(68, 37);
@@ -121,7 +122,7 @@
             // 
             this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button3.BackColor = System.Drawing.Color.DarkGray;
-            this.button3.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(167, 211);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(68, 37);
@@ -134,7 +135,7 @@
             // 
             this.button4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button4.BackColor = System.Drawing.Color.DarkGray;
-            this.button4.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(19, 176);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(68, 37);
@@ -147,7 +148,7 @@
             // 
             this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button6.BackColor = System.Drawing.Color.DarkGray;
-            this.button6.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(167, 176);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(68, 37);
@@ -160,7 +161,7 @@
             // 
             this.button7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button7.BackColor = System.Drawing.Color.DarkGray;
-            this.button7.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(19, 141);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(68, 37);
@@ -173,7 +174,7 @@
             // 
             this.button9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button9.BackColor = System.Drawing.Color.DarkGray;
-            this.button9.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(167, 141);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(68, 37);
@@ -186,7 +187,7 @@
             // 
             this.buttonAns.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonAns.BackColor = System.Drawing.Color.DarkGray;
-            this.buttonAns.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAns.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAns.Location = new System.Drawing.Point(241, 246);
             this.buttonAns.Name = "buttonAns";
             this.buttonAns.Size = new System.Drawing.Size(68, 37);
@@ -199,7 +200,7 @@
             // 
             this.button14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button14.BackColor = System.Drawing.Color.DarkGray;
-            this.button14.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(315, 211);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(68, 72);
@@ -212,7 +213,7 @@
             // 
             this.button_plus.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_plus.BackColor = System.Drawing.Color.DarkGray;
-            this.button_plus.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_plus.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_plus.Location = new System.Drawing.Point(241, 211);
             this.button_plus.Name = "button_plus";
             this.button_plus.Size = new System.Drawing.Size(68, 37);
@@ -225,7 +226,7 @@
             // 
             this.button_substract.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_substract.BackColor = System.Drawing.Color.DarkGray;
-            this.button_substract.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_substract.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_substract.Location = new System.Drawing.Point(241, 141);
             this.button_substract.Name = "button_substract";
             this.button_substract.Size = new System.Drawing.Size(68, 37);
@@ -238,7 +239,7 @@
             // 
             this.button_multiplication.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_multiplication.BackColor = System.Drawing.Color.DarkGray;
-            this.button_multiplication.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_multiplication.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_multiplication.Location = new System.Drawing.Point(241, 176);
             this.button_multiplication.Name = "button_multiplication";
             this.button_multiplication.Size = new System.Drawing.Size(68, 37);
@@ -251,7 +252,7 @@
             // 
             this.button_divisor.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_divisor.BackColor = System.Drawing.Color.DarkGray;
-            this.button_divisor.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_divisor.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_divisor.Location = new System.Drawing.Point(241, 106);
             this.button_divisor.Name = "button_divisor";
             this.button_divisor.Size = new System.Drawing.Size(68, 37);
@@ -264,7 +265,7 @@
             // 
             this.buttonAC.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonAC.BackColor = System.Drawing.Color.DarkGray;
-            this.buttonAC.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAC.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAC.Location = new System.Drawing.Point(167, 106);
             this.buttonAC.Name = "buttonAC";
             this.buttonAC.Size = new System.Drawing.Size(68, 37);
@@ -277,7 +278,7 @@
             // 
             this.buttonMR.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonMR.BackColor = System.Drawing.Color.DarkGray;
-            this.buttonMR.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMR.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMR.Location = new System.Drawing.Point(93, 106);
             this.buttonMR.Name = "buttonMR";
             this.buttonMR.Size = new System.Drawing.Size(68, 37);
@@ -290,7 +291,7 @@
             // 
             this.buttonMC.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonMC.BackColor = System.Drawing.Color.DarkGray;
-            this.buttonMC.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonMC.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMC.Location = new System.Drawing.Point(19, 106);
             this.buttonMC.Name = "buttonMC";
             this.buttonMC.Size = new System.Drawing.Size(68, 37);
@@ -303,7 +304,7 @@
             // 
             this.button8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button8.BackColor = System.Drawing.Color.DarkGray;
-            this.button8.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(93, 141);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(68, 37);
@@ -316,7 +317,7 @@
             // 
             this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button5.BackColor = System.Drawing.Color.DarkGray;
-            this.button5.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(93, 176);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(68, 37);
@@ -329,7 +330,7 @@
             // 
             this.button00.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button00.BackColor = System.Drawing.Color.DarkGray;
-            this.button00.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button00.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button00.Location = new System.Drawing.Point(93, 246);
             this.button00.Name = "button00";
             this.button00.Size = new System.Drawing.Size(68, 37);
@@ -342,7 +343,7 @@
             // 
             this.buttonSqrt.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonSqrt.BackColor = System.Drawing.Color.DarkGray;
-            this.buttonSqrt.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSqrt.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonSqrt.Location = new System.Drawing.Point(315, 106);
             this.buttonSqrt.Name = "buttonSqrt";
             this.buttonSqrt.Size = new System.Drawing.Size(68, 37);
@@ -355,7 +356,7 @@
             // 
             this.buttonPower.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.buttonPower.BackColor = System.Drawing.Color.DarkGray;
-            this.buttonPower.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPower.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPower.Location = new System.Drawing.Point(314, 141);
             this.buttonPower.Name = "buttonPower";
             this.buttonPower.Size = new System.Drawing.Size(68, 37);
@@ -368,7 +369,7 @@
             // 
             this.button27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button27.BackColor = System.Drawing.Color.DarkGray;
-            this.button27.Font = new System.Drawing.Font("NSimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button27.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button27.Location = new System.Drawing.Point(314, 176);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(68, 37);

@@ -1,5 +1,0 @@
-D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\bin\Debug\Class.dll
-D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\bin\Debug\Class.pdb
-D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\obj\Debug\Class.csprojAssemblyReference.cache
-D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\obj\Debug\Class.dll
-D:\Tubes_OOP\Calculator_Scientific\Calculator_Scientific\Class\obj\Debug\Class.pdb

@@ -70,7 +70,31 @@ namespace Calculator_Scientific
         private void Operator_Clicked(object sender, EventArgs e)
         {
             Button clicked = (Button)sender;
-            if (!calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
+
+            // percabangan jika user menekan tombol operator setelah tombol =
+            if (AssignClicked)
+            {
+                AssignClicked = false;
+                calc.SetStateOperation(true);
+
+                // memasukkan nilai Ans ke operand 1
+                string temp = calc.GetAns().ToString();
+                calc.SetOperand1(temp);
+
+                // menyimpan operator
+                calc.SignOperator(clicked.Text);
+
+                // Menampilkan operator ke layar
+                if (clicked.Text.Equals("mod"))
+                {
+                    textBox_Result.Text = textBox_Result.Text + "%";
+                }
+                else
+                {
+                    textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                }
+            }
+            else if (!calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
             //percabangan saat awal diinput negatif
             {
                 textBox_Result.Clear();
@@ -174,8 +198,6 @@ namespace Calculator_Scientific
             
         }
 
-        
-
         private void ButtonPower_Click(object sender, EventArgs e)
         {
             Button clicked = (Button)sender;
@@ -231,7 +253,16 @@ namespace Calculator_Scientific
         private void ButtonAns_Click(object sender, EventArgs e)
         {
             string temp = calc.GetAns().ToString();
-            textBox_Result.Text = textBox_Result.Text + temp;
+            if (AssignClicked)
+            {
+                textBox_Result.Clear();
+                textBox_Result.Text = temp;
+                AssignClicked = false;
+            }
+            else
+            {
+                textBox_Result.Text = textBox_Result.Text + temp;
+            }
             current_number = temp;
         }
     }
