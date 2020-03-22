@@ -50,3 +50,7 @@ C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific
 C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CopyComplete
 C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
 C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Expression.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Expression.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Exceptions.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Exceptions.pdb

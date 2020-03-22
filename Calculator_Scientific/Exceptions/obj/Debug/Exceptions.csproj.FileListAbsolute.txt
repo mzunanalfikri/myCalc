@@ -1,0 +1,4 @@
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Exceptions\bin\Debug\Exceptions.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Exceptions\bin\Debug\Exceptions.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Exceptions\obj\Debug\Exceptions.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Exceptions\obj\Debug\Exceptions.pdb

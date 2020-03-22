@@ -10,20 +10,7 @@ using System.Windows.Forms;
 using Calculator;
 
 namespace Calculator_Scientific
-{
-    /*
-    public abstract class Exception
-    {
-        protected string error;
-           
-        public Exception(string m)
-        {
-            error = m;
-        }
-        public abstract void ShowError();
-    }
-    */
-    
+{ 
     public partial class Form1 : Form
     {
 
@@ -56,8 +43,16 @@ namespace Calculator_Scientific
             }
 
             // Mengubah tulisan di layar dan menyimpan angka ke current_number
-            textBox_Result.Text = textBox_Result.Text + clicked.Text;
-            current_number = current_number + clicked.Text;
+            if (clicked.Text.Equals("( - )"))
+            {
+                textBox_Result.Text = textBox_Result.Text + "-";
+                current_number = current_number + "-";
+            }
+            else
+            {
+                textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                current_number = current_number + clicked.Text;
+            }
 
             // Tombol yang terakhir di tekan bukan tombol operator, 
             // maka isOperation = false
@@ -134,13 +129,7 @@ namespace Calculator_Scientific
 
         private void asignButton(object sender, EventArgs e)
         {
-            
-            if (calc.GetSignOperator().Equals("/") && current_number.Equals("0"))
-            {
-                //throw new ZeroException("Pembagian dengan nol");
-                MessageBox.Show("pembagian dengan 0");
-            }
-            else
+            try
             {
                 AssignClicked = true;
 
@@ -160,7 +149,10 @@ namespace Calculator_Scientific
                 //set ans
                 calc.SetAns(temp.ToString());
             }
-                
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message);
+            }   
         }
 
         private void AC_button(object sender, EventArgs e)
@@ -202,46 +194,50 @@ namespace Calculator_Scientific
         {
             Button clicked = (Button)sender;
 
+            // Kalau user menekan sqrt setelah menekan =
+            if (AssignClicked)
+            {
+                // set Ans as operand 1
+                current_number = calc.GetAns().ToString();
+                AssignClicked = false;
+            }
+
             if (current_number.Equals(""))
             {
                 MessageBox.Show("Masukkan bilangan yang valid");
             }
             else
             {
-                AssignClicked = true;
-
-                // mengubah isOperation menjadi true karena tombol operator diklik
-                calc.SetStateOperation(true);
-
-                // Menyimpan operator yang diklik ke operatorSign
-                calc.SignOperator(clicked.Text);
-
-                // Kalau user menekan sqrt setelah menekan =
-                if (calc.GetStateOperation())
+                try
                 {
-                    // set Ans as operand 1
-                    current_number = calc.GetAns().ToString();
+                    // Menyimpan operator yang diklik ke operatorSign
+                    calc.SignOperator(clicked.Text);
+
                     calc.SetOperand1(current_number);
                     current_number = "";
+
+                    // Menghitung operasi
+
+                    double temp = calc.calculate();
+
+                    // Menampilkan hasil operasi
+                    textBox_Result.Clear();
+                    textBox_Result.Text = temp.ToString();
+
+                    //set state operation false
+                    calc.SetStateOperation(false);
+                    //set ans
+                    calc.SetAns(temp.ToString());
+
+                    // mengubah isOperation menjadi true karena tombol operator diklik
+                    calc.SetStateOperation(true);
                 }
-                else
+                catch (Exception exc)
                 {
-                    calc.SetOperand1(current_number);
-                    current_number = "";
+                    MessageBox.Show(exc.Message);
                 }
-
-                // Menghitung operasi
-                double temp = calc.calculate();
-
-                // Menampilkan hasil operasi
-                textBox_Result.Clear();
-                textBox_Result.Text = temp.ToString();
-
-                //set state operation false
-                calc.SetStateOperation(false);
-                //set ans
-                calc.SetAns(temp.ToString());
             }
+            AssignClicked = true;
         }
 
         private void ButtonAns_Click(object sender, EventArgs e)

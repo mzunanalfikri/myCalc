@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ExpressionClass
 {
-    public class NegativeExpression : UnaryExpression
+    public class Modulus : BinaryExpression
     {
-        public NegativeExpression(Expression x) : base(x) { }
+        public Modulus(Expression x, Expression y) : base(x, y) { }
 
         override
         public double solve()
         {
-            return x.solve() * -1;
+            return x.solve() % y.solve();
         }
     }
 }

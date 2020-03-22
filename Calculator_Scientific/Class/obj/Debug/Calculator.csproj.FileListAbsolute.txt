@@ -16,3 +16,5 @@ F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calcu
 F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Class.pdb
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Expression.dll
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Expression.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Exceptions.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Exceptions.pdb

@@ -7,17 +7,10 @@ using ExpressionClass;
 
 namespace Calculator
 {
-    public class ZeroException : System.Exception
-    {
-        public ZeroException(string m) : base(m)
-        {
-
-        }
-    }
     public class Calc
     {
-        protected double operand1;
-        protected double operand2;
+        protected Expression operand1;
+        protected Expression operand2;
         protected string operatorSign;
         protected bool isOperation;
         protected double ans;
@@ -27,8 +20,8 @@ namespace Calculator
         // default constructor
         public Calc()
         {
-            operand1 = 0.0;
-            operand2 = 0.0;
+            operand1 = new TerminalExpression(0);
+            operand2 = new TerminalExpression(0);
             ans = 0.0;
             isOperation = false;
 
@@ -39,8 +32,8 @@ namespace Calculator
         // Dipanggil ketika tombol AC ditekan
         public void Reset()
         {
-            operand1 = 0.0;
-            operand2 = 0.0;
+            operand1 = new TerminalExpression(0);
+            operand2 = new TerminalExpression(0);
             isOperation = false;
 
             memory.Clear();
@@ -52,12 +45,14 @@ namespace Calculator
         // kemudian menyimpannya ke operand
         public void SetOperand1(string number)
         {
-            operand1 = double.Parse(number);
+            double temp = double.Parse(number);
+            operand1 = new TerminalExpression(temp);
         }
 
         public void SetOperand2(string number)
         {
-            operand2 = double.Parse(number);
+            double temp = double.Parse(number);
+            operand2 = new TerminalExpression(temp);
         }
 
         public void SetAns(string number)
@@ -114,35 +109,32 @@ namespace Calculator
         // Menghitung hasil operasi <operand1> <operator> <operand2>
         public double calculate()
         {
-            double temp = 0.0;
+            Expression temp = new TerminalExpression(0);
             switch (operatorSign)
             {
                 case "+":
-                    temp = operand1 + operand2;
+                    temp = new Addition(operand1, operand2);
                     break;
-
                 case "-":
-                    temp = operand1 - operand2;
+                    temp = new Substraction(operand1, operand2);
                     break;
-
                 case "*":
-                    temp = operand1 * operand2;
+                    temp = new Multiplication(operand1, operand2);
                     break;
-
                 case "/":
-                    temp = operand1 / operand2;
+                    temp = new Division(operand1, operand2);
                     break;
                 case "^":
-                    temp = Math.Pow(operand1, operand2);
+                    temp = new Power(operand1, operand2);
                     break;
                 case "sqrt":
-                    temp = Math.Pow(operand1, 1.0 / 2.0);
+                    temp = new SquareRoot(operand1);
                     break;
                 case "mod":
-                    temp = operand1 % operand2;
+                    temp = new Modulus(operand1, operand2);
                     break;
             }
-            return temp;
+            return temp.solve();
         }
     }
 }

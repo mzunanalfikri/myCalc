@@ -88,7 +88,7 @@
             this.button_dot.Name = "button_dot";
             this.button_dot.Size = new System.Drawing.Size(68, 37);
             this.button_dot.TabIndex = 3;
-            this.button_dot.Text = ".";
+            this.button_dot.Text = "( - )";
             this.button_dot.UseVisualStyleBackColor = false;
             this.button_dot.Click += new System.EventHandler(this.Number_Clicked);
             // 
@@ -335,7 +335,7 @@
             this.button00.Name = "button00";
             this.button00.Size = new System.Drawing.Size(68, 37);
             this.button00.TabIndex = 24;
-            this.button00.Text = "00";
+            this.button00.Text = ".";
             this.button00.UseVisualStyleBackColor = false;
             this.button00.Click += new System.EventHandler(this.Number_Clicked);
             // 

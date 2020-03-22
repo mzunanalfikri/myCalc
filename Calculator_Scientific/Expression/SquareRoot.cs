@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Exceptions;
 
 namespace ExpressionClass
 {
@@ -13,8 +14,14 @@ namespace ExpressionClass
         override
         public double solve()
         {
-            // TODO: Throw an error if x.solve() < 0
-            return Math.Pow(x.solve(), 0.5);
+            if (x.solve() < 0)
+            {
+                throw new NegativeRootException("Bilangan negatif tidak bisa diakar.");
+            }
+            else
+            {
+                return Math.Pow(x.solve(), 0.5);
+            }
         }
     }
 }
