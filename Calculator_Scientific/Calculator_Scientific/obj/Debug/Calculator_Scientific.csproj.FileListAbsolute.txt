@@ -54,3 +54,8 @@ D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_S
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Expression.pdb
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Exceptions.dll
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Exceptions.pdb
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Expression.dll
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Exceptions.dll
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Expression.pdb
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Expression.dll.config
+F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\bin\Debug\Exceptions.pdb
