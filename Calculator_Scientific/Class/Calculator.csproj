@@ -45,5 +45,14 @@
     <Compile Include="Calc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Expression\ExpressionClass.csproj">
+      <Project>{3238298c-a52a-4804-9716-45d2c2683b3d}</Project>
+      <Name>ExpressionClass</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

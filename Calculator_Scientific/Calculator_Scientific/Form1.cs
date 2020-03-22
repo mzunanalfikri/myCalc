@@ -201,7 +201,8 @@ namespace Calculator_Scientific
         private void ButtonSqrt_Click(object sender, EventArgs e)
         {
             Button clicked = (Button)sender;
-            if (calc.GetStateOperation() || current_number.Equals(""))
+
+            if (current_number.Equals(""))
             {
                 MessageBox.Show("Masukkan bilangan yang valid");
             }
@@ -215,9 +216,19 @@ namespace Calculator_Scientific
                 // Menyimpan operator yang diklik ke operatorSign
                 calc.SignOperator(clicked.Text);
 
-                //set operand 1
-                calc.SetOperand1(current_number);
-                current_number = "";
+                // Kalau user menekan sqrt setelah menekan =
+                if (calc.GetStateOperation())
+                {
+                    // set Ans as operand 1
+                    current_number = calc.GetAns().ToString();
+                    calc.SetOperand1(current_number);
+                    current_number = "";
+                }
+                else
+                {
+                    calc.SetOperand1(current_number);
+                    current_number = "";
+                }
 
                 // Menghitung operasi
                 double temp = calc.calculate();
