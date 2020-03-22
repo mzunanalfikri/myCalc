@@ -58,6 +58,10 @@
       <Project>{2b968450-fdae-4a58-acbb-723628fbab30}</Project>
       <Name>Calculator</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Exceptions\Exceptions.csproj">
+      <Project>{f1049536-89b7-429d-b783-949c340b87fe}</Project>
+      <Name>Exceptions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Expression\ExpressionClass.csproj">
       <Project>{3238298c-a52a-4804-9716-45d2c2683b3d}</Project>
       <Name>ExpressionClass</Name>

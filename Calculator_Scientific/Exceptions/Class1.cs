@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Exceptions
 {
-    public class ZeroException : System.Exception
+    public class ZeroException : Exception
     {
         public ZeroException(string m) : base(m) { }
     }
 
-    public class NegativeRootException : System.Exception
+    public class NegativeRootException : Exception
     {
         public NegativeRootException(string m) : base(m) { }
     }
         
-    public class InvalidOperation : System.Exception
+    public class InvalidOperation : Exception
     {
         public InvalidOperation(string m) : base(m) { }
     }

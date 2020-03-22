@@ -8,3 +8,5 @@ D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Tests\bin\De
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Tests\bin\Debug\Expression.pdb
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Tests\obj\Debug\Tests.dll
 D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Tests\obj\Debug\Tests.pdb
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Tests\bin\Debug\Exceptions.dll
+D:\01 INDY\#college\# 4 IF\OOP\# Tubes1OOP-03\Calculator_Scientific\Tests\bin\Debug\Exceptions.pdb

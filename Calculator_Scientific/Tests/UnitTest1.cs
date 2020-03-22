@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ExpressionClass;
+using Exceptions;
 
 namespace Tests
 {
@@ -20,7 +21,7 @@ namespace Tests
             Expression div = new Division(opr1, opr2);
             Expression pow = new Power(opr1, opr2);
             Expression sqrt = new SquareRoot(opr1);
-            Expression neg = new NegativeExpression(opr1);
+            Expression mod = new Modulus(opr1, opr2);
 
             // Act
             double addRes = add.solve();
@@ -29,7 +30,7 @@ namespace Tests
             double divRes = div.solve();
             double powRes = pow.solve();
             double sqrtRes = sqrt.solve();
-            double negRes = neg.solve();
+            double modRes = mod.solve();
 
             // Assert
             Assert.AreEqual(3.5 + 2, addRes);
@@ -38,13 +39,32 @@ namespace Tests
             Assert.AreEqual(3.5 / 2, divRes);
             Assert.AreEqual(Math.Pow(3.5, 2), powRes);
             Assert.AreEqual(Math.Pow(3.5, 0.5), sqrtRes);
-            Assert.AreEqual(-3.5, negRes);
+            Assert.AreEqual(3.5 % 2, modRes);
         }
 
         [TestMethod]
-        public void CheckNegativeSqrt()
+        [ExpectedException(typeof(ZeroException), "Tidak bisa membagi dengan 0.")]
+        public void ZeroDivExceptions()
         {
-            // TODO
+            // Assign
+            Expression neg = new TerminalExpression(-25);
+            Expression zero = new TerminalExpression(0);
+            Expression zeroDiv = new Division(neg, zero);
+
+            // Act
+            double zeroDivRes = zeroDiv.solve();
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NegativeRootException), "Bilangan negatif tidak bisa diakar.")]
+        public void NegativeRootExceptions()
+        {
+            // Assign
+            Expression neg = new TerminalExpression(-25);
+            Expression negRoot = new SquareRoot(neg);
+
+            // Act
+            double negRootRes = negRoot.solve();
         }
     }
 }
