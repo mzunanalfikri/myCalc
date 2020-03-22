@@ -42,8 +42,12 @@ namespace Calculator_Scientific
                 }
             }
 
+            if (textBox_Result.Text.Contains(".") && clicked.Text.Equals("."))
+            {
+                MessageBox.Show("Operasi tidak valid.");
+            }
             // Mengubah tulisan di layar dan menyimpan angka ke current_number
-            if (clicked.Text.Equals("( - )"))
+            else if (clicked.Text.Equals("( - )"))
             {
                 textBox_Result.Text = textBox_Result.Text + "-";
                 current_number = current_number + "-";
@@ -66,93 +70,103 @@ namespace Calculator_Scientific
         {
             Button clicked = (Button)sender;
 
-            // percabangan jika user menekan tombol operator setelah tombol =
-            if (AssignClicked)
+            try
             {
-                AssignClicked = false;
-                calc.SetStateOperation(true);
-
-                // memasukkan nilai Ans ke operand 1
-                string temp = calc.GetAns().ToString();
-                calc.SetOperand1(temp);
-
-                // menyimpan operator
-                calc.SignOperator(clicked.Text);
-
-                // Menampilkan operator ke layar
-                if (clicked.Text.Equals("mod"))
+                // percabangan jika user menekan tombol operator setelah tombol =
+                if (AssignClicked)
                 {
-                    textBox_Result.Text = textBox_Result.Text + "%";
+                    AssignClicked = false;
+                    calc.SetStateOperation(true);
+
+                    // memasukkan nilai Ans ke operand 1
+                    string temp = calc.GetAns().ToString();
+                    calc.SetOperand1(temp);
+
+                    // menyimpan operator
+                    calc.SignOperator(clicked.Text);
+
+                    // Menampilkan operator ke layar
+                    if (clicked.Text.Equals("mod"))
+                    {
+                        textBox_Result.Text = textBox_Result.Text + "%";
+                    }
+                    else
+                    {
+                        textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                    }
+                }
+                else if (!calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
+                //percabangan saat awal diinput negatif
+                {
+                    textBox_Result.Clear();
+                    AssignClicked = false;
+                    textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                    current_number = current_number + clicked.Text;
+                }
+                else if (calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
+                //percaabangan setelah tanda operasi lalu ada simbol negatif
+                {
+                    textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                    current_number = current_number + clicked.Text;
                 }
                 else
                 {
-                    textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                    // mengubah isOperation menjadi true karena tombol operator diklik
+                    calc.SetStateOperation(true);
+
+                    // Menyimpan angka ke operand1
+                    calc.SetOperand1(current_number);
+                    current_number = "";
+
+                    // Menyimpan operator yang diklik ke operatorSign
+                    calc.SignOperator(clicked.Text);
+
+                    // Menampilkan operator ke layar
+                    if (clicked.Text.Equals("mod"))
+                    {
+                        textBox_Result.Text = textBox_Result.Text + "%";
+                    }
+                    else
+                    {
+                        textBox_Result.Text = textBox_Result.Text + clicked.Text;
+                    }
                 }
             }
-            else if (!calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
-            //percabangan saat awal diinput negatif
+            catch (Exception exc)
             {
-                textBox_Result.Clear();
-                AssignClicked = false;
-                textBox_Result.Text = textBox_Result.Text + clicked.Text;
-                current_number = current_number + clicked.Text;
-            }
-            else if (calc.GetStateOperation() && current_number.Equals("") && clicked.Text.Equals("-"))
-            //percaabangan setelah tanda operasi lalu ada simbol negatif
-            {
-                textBox_Result.Text = textBox_Result.Text + clicked.Text;
-                current_number = current_number + clicked.Text;
-            }
-            else
-            {
-                // mengubah isOperation menjadi true karena tombol operator diklik
-                calc.SetStateOperation(true);
-
-                // Menyimpan operator yang diklik ke operatorSign
-                calc.SignOperator(clicked.Text);
-
-                // Menyimpan angka ke operand1
-                calc.SetOperand1(current_number);
-                current_number = "";
-
-                // Menampilkan operator ke layar
-                if (clicked.Text.Equals("mod"))
-                {
-                    textBox_Result.Text = textBox_Result.Text + "%";
-                }
-                else
-                {
-                    textBox_Result.Text = textBox_Result.Text + clicked.Text;
-                }
+                MessageBox.Show(exc.Message);
             }
         }
 
         private void asignButton(object sender, EventArgs e)
         {
-            try
+            if (!AssignClicked)
             {
-                AssignClicked = true;
+                try
+                {
+                    AssignClicked = true;
 
-                // Menyimpan angka ke operand 2
-                calc.SetOperand2(current_number);
-                current_number = "";
+                    // Menyimpan angka ke operand 2
+                    calc.SetOperand2(current_number);
+                    current_number = "";
 
-                // Menghitung operasi
-                double temp = calc.calculate();
+                    // Menghitung operasi
+                    double temp = calc.calculate();
 
-                // Menampilkan hasil operasi
-                textBox_Result.Clear();
-                textBox_Result.Text = temp.ToString();
+                    // Menampilkan hasil operasi
+                    textBox_Result.Clear();
+                    textBox_Result.Text = temp.ToString();
 
-                //set state operation false
-                calc.SetStateOperation(false);
-                //set ans
-                calc.SetAns(temp.ToString());
+                    //set state operation false
+                    calc.SetStateOperation(false);
+                    //set ans
+                    calc.SetAns(temp.ToString());
+                }
+                catch (Exception exc)
+                {
+                    MessageBox.Show(exc.Message);
+                }
             }
-            catch (Exception exc)
-            {
-                MessageBox.Show(exc.Message);
-            }   
         }
 
         private void AC_button(object sender, EventArgs e)

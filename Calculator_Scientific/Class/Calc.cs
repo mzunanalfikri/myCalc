@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ExpressionClass;
+using Exceptions;
 
 namespace Calculator
 {
@@ -45,8 +46,15 @@ namespace Calculator
         // kemudian menyimpannya ke operand
         public void SetOperand1(string number)
         {
-            double temp = double.Parse(number);
-            operand1 = new TerminalExpression(temp);
+            try
+            {
+                double temp = double.Parse(number);
+                operand1 = new TerminalExpression(temp);
+            }
+            catch (Exception)
+            {
+                throw new InvalidOperation("Operasi tidak valid.");
+            }
         }
 
         public void SetOperand2(string number)

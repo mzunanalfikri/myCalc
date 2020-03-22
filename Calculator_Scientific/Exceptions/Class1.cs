@@ -16,4 +16,8 @@ namespace Exceptions
         public NegativeRootException(string m) : base(m) { }
     }
         
+    public class InvalidOperation : System.Exception
+    {
+        public InvalidOperation(string m) : base(m) { }
+    }
 }
