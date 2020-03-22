@@ -37,3 +37,16 @@ F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calcu
 F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CopyComplete
 F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
 F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe.config
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.exe
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\bin\Debug\Calculator_Scientific.pdb
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.dll
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\bin\Debug\Class.pdb
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csprojAssemblyReference.cache
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Form1.resources
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.Properties.Resources.resources
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.GenerateResource.cache
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CoreCompileInputs.cache
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.csproj.CopyComplete
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.exe
+C:\Users\marho\OneDrive\Desktop\Coba\Calculator_Scientific\Calculator_Scientific\obj\Debug\Calculator_Scientific.pdb

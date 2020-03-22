@@ -363,7 +363,7 @@
             this.buttonPower.TabIndex = 28;
             this.buttonPower.Text = "^";
             this.buttonPower.UseVisualStyleBackColor = false;
-            this.buttonPower.Click += new System.EventHandler(this.ButtonPower_Click);
+            this.buttonPower.Click += new System.EventHandler(this.Operator_Clicked);
             // 
             // button27
             // 
