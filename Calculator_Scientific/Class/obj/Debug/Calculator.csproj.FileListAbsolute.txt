@@ -24,3 +24,15 @@ F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calcu
 F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Expression.dll.config
 F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\bin\Debug\Exceptions.pdb
 F:\JURUSAN\Semester 4\IF2210 - Pemrograman Berorientasi Objek\Tubes1OOP-03\Calculator_Scientific\Class\obj\Debug\Calculator.csproj.CopyComplete
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\bin\Debug\Class.dll
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\bin\Debug\Class.pdb
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\bin\Debug\Expression.dll
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\bin\Debug\Exceptions.dll
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\bin\Debug\Expression.pdb
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\bin\Debug\Expression.dll.config
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\bin\Debug\Exceptions.pdb
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\obj\Debug\Calculator.csproj.CopyComplete
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\obj\Debug\Class.dll
+C:\Users\marho\OneDrive\Desktop\dicoba\Calculator_Scientific\Class\obj\Debug\Class.pdb

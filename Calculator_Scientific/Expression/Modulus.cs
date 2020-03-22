@@ -13,7 +13,12 @@ namespace ExpressionClass
         override
         public double solve()
         {
-            return x.solve() % y.solve();
+            //return x.solve() % y.solve();
+            double result = x.solve() % y.solve();
+            if(result < 0){
+                result += y.solve();
+            }
+            return result;
         }
     }
 }
