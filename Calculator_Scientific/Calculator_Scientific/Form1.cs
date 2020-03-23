@@ -42,7 +42,7 @@ namespace Calculator_Scientific
                 }
             }
 
-            if (textBox_Result.Text.Contains(",") && clicked.Text.Equals(","))
+            if (current_number.Contains(",") && clicked.Text.Equals(","))
             {
                 MessageBox.Show("Operasi tidak valid.");
             }

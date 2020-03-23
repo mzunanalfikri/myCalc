@@ -15,7 +15,7 @@ namespace ExpressionClass
         {
             //return x.solve() % y.solve();
             double result = x.solve() % y.solve();
-            if(result < 0){
+            if (result < 0 && y.solve() > 0){
                 result += y.solve();
             }
             return result;
